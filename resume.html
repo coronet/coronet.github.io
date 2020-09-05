@@ -1,93 +1,174 @@
 <html>
   <head>
     <title>A Wild RESUME Appears</title>
+    <style>
+      body {
+        color: #335;
+        background-color: #fafafa;
+        font-family: monospace;
+        font-size: 110%;
+      }
+      .main {
+        border: 1px solid #335;
+        max-width: 80ch;
+        padding: 4ch;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .contact {
+        text-align: center;
+        margin-bottom: 1em;
+      }
+      .separator {
+        height: 0.5em;
+      }
+      .experience {
+        margin: 1em;
+      }
+      .header {
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+      }
+      .text {
+        text-align: left;
+        margin: 0.5em;
+      }
+    </style>
   </head>
-  <body style="">
-<div style="width: 600px; text-align: center; margin-left: auto; margin-right: auto; border: solid 1px; padding: 20px; font-family: monospace;">
+  <body>
+    <div class="main">
 
 <h2>David Murray</h2>
-<a href="https://twitter.com/fernomac">@fernomac</a><br/>
-[fernomac at coronet dot io]
+<div class="contact">
+  [fernomac at coronet dot io]<br/>
+  tweets: <a href="https://twitter.com/fernomac">@fernomac</a><br/>
+  code: <a href="https://github.com/fernomac">@fernomac</a><br/>
+</div>
 
-<p style="text-align: left;">
-I enjoy understanding complex systems well enough to describe them to other people in simple terms.
-I'm passionate about friendly APIs, highly-available systems, and engineering platforms.
-</p>
+<div class="separator"></div>
+
+<div class="text">
+  Hi! I'm an experienced software engineer, operator, and architect. I enjoy learning
+  how and why complex socio-technical systems work, helping others to understand the bigger
+  picture, and working as a team to make things better. I care about inclusive communities,
+  reliable systems, clear communication, and continual improvement.
+</div>
+
+<div class="separator"></div>
+
+<h3>Experience</h3>
+
+<div class="experience">
+  <div class="header">
+    <span>Architect, Architecture Strategy @ Salesforce.com</span>
+    <span>2018-Present</span>
+  </div>
+  <div class="text">
+    I work with the Office of the CTO to clarify and improve the company's architecture
+    and architectural practices. I do this through writing and speaking about cross-cutting
+    strategic initiatives, consulting with teams in architectural transition, and organizing
+    working groups of other technical leaders to drive alignment across the company. I'm
+    learning a lot about clear communication, long-range planning, and consensus building.
+  </div>
+</div>
+
+<div class="separator"></div>
+
+<div class="experience">
+  <div class="header">
+    <span>Principal Engineer, Security @ Salesforce.com</span>
+    <span>2015-2018</span>
+  </div>
+  <div class="text">
+    I helped to build out a new engineering function within the security organization,
+    architected and delivered a highly-available HSM-backed key management service, and
+    partnered with engineering teams across the company to drive ubiquitous encryption
+    of data in transit and at rest. I learned a lot about random number generation,
+    FIPS 104-2, and how to win friends and influence people.
+  </div>
+</div>
+
+<div class="separator"></div>
+
+<div class="experience">
+  <div class="header">
+    <span>Senior Software Engineer, Developer Tools @ Amazon Web Services</span>
+    <span>2013-2015</span>
+  </div>
+  <div class="text">
+    I contributed to AWS's <a href="https://github.com/aws">open-source developer tools</a>,
+    consulted with service teams across AWS to help them design developer-friendly APIs,
+    and engaged with customers building performant and scalable applications on the AWS
+    platform. I learned a lot about open source licensing, semantic versioning, and backwards
+    compatibility in Internet-scale distributed systems.
+  </div>
+</div>
+
+<div class="separator"></div>
+
+<div class="experience">
+  <div class="header">
+    <span>Software Engineer, E-Commerce Platform @ Amazon.com</span>
+    <span>2010-2013</span>
+  </div>
+  <div class="text">
+    I built and operated a highly-available revision-controlled database for business
+    metadata, growing it from a single-use-case prototype built on top of Dynamo to a
+    company-wide tier-1 hosted service handling hundreds of thousands of requests per second
+    across multiple regions. I led the development of a new distributed log-based storage
+    service, the rearchitecture of the database to use it instead of Dynamo, and the
+    zero-downtime migration to the new storage backend. I learned a lot about the Java
+    garbage collector, the CAP theorem, and self-healing systems that won't page you
+    at 2am very often.
+  </div>
+</div>
+
+<div class="separator"></div>
+
+<div class="experience">
+  <div class="header">
+    <span>Software Engineer, Windows Networking @ Microsoft</span>
+    <span>2007-2010</span>
+  </div>
+  <div class="text">
+    I contributed to the <a href="https://github.com/Microsoft/referencesource/tree/master/System/net/System">
+    System.Net</a> modules of the .NET Framework and built the low-level networking APIs
+    for <a href="https://msdn.microsoft.com/en-us/library/cc645029(v=vs.95).aspx">
+    Microsoft Silverlight</a> (RIP). I learned a lot about asynchronous I/O, the HTTP
+    protocol, and windbg. I engaged with customers building large-scale and low-latency
+    networked systems to help them optimize performance and resource utilization.
+  </div>
+</div>
+
+<div class="separator"></div>
 
 <h3>Education</h3>
-In 2007, I got a B.S. in C.S. from the University of Wisconsin - Madison.<br/>
 
-<h3>Work</h3>
+<div class="text">
+  I have a B.S. in C.S. from the University of Wisconsin @ Madison.
+</div>
 
-<p style="text-align: left;">
-After graduating, I joined the <b>Windows Networking</b> team at <b>Microsoft</b>. I contributed
-to the <a href="https://github.com/Microsoft/referencesource/tree/master/System/net/System">
-System.Net</a> modules of the .NET Framework, and built the low-level
-networking APIs for <a href="https://msdn.microsoft.com/en-us/library/cc645029(v=vs.95).aspx">
-Microsoft Silverlight</a> (RIP). I learned a lot about asynchronous
-programming models, the HTTP protocol, and windbg. I engaged with customers
-building low-latency and large-scale networked systems to help them optimize
-performance and resource utilization.
-</p>
-
-&nbsp;
-
-<p style="text-align: left;">
-In 2010 I left to join the <b>E-Commerce Platform Services</b> team
-at <b>Amazon.com</b>. I built a highly-available revision-controlled
-database for business metadata, growing it from a single-use-case prototype build on
-<a href="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf">Dynamo</a>
-to a company-wide hosted service handling hundreds of thousands of requests
-per second across multiple regions. I led the development of a distributed log-based storage
-service, the rearchitecture of the database to use it instead of Dynamo, and the zero-downtime
-migration to the new storage backend. I learned a lot about the Java garbage collector, the CAP
-theorem, and self-healing systems that won't page people at 2am.
-</p>
-
-&nbsp;
-
-<p style="text-align: left;">
-In 2013 I moved over to <b>Amazon Web Services</b>, where I contributed
-to AWS's <a href="https://github.com/aws">open-source developer tools</a>,
-helped service teams design developer-friendly APIs, engaged with customers
-building performant and scalable applications on the AWS platform, and once
-got paid to talk about my cat at re:Invent. I learned a lot about open source
-licensinge, semantic versioning, and backwards compatibility in Internet-scale
-distributed systems.
-</p>
-
-&nbsp;
-
-<p style="text-align: left;">
-In 2015 I left to join the <b>Security</b> organization at <b>Salesforce</b>. I helped to
-bootstrap a software-engineering function within the security organization, architected a
-highly-available HSM-backed key management service, and partnered with teams across the
-company to roll out encryption at rest and in transit for sensitive customer data. I learned
-a lot about random number generation, FIPS 104-2, and how to win friends and influence people.
-</p>
-
-&nbsp;
-
-<p style="text-align: left;">
-In 2018 I transitioned to a new role at <b>Salesforce</b>, working with the <b>Office of the CTO</b> to
-clarify and simplify the company's architecture. I do this through writing and speaking about
-cross-cutting strategic initiatives, consulting with teams in architectural transition, and
-organizing working groups of other technical leaders to drive alignment across the company. I'm
-learning a lot about clear communication, long-range planning, and consensus building.
-</p>
+<div class="separator"></div>
 
 <h3>Other Stuff</h3>
 
-<p style="text-align: left;">
-I enjoy speaking at external meet-ups and conferences on technical topics. From 2015-2018 I organized
-the <a href="http://www.meetup.com/Papers-We-Love-Seattle/">Seattle chapter of Papers We Love</a>,
-a community built around reading, discussing, and learning more about academic computer science papers.
-</p>
-
-<p style="text-align: left;">
-I've worked remotely since 2016, and VERY remotely (from Australia) since 2018.
-</p>
-
+<div class="text">
+  I enjoy attending and speaking at meet-ups and conferences on technical and
+  socio-technical topics. From 2015-2018 I organized the <a href="http://www.meetup.com/Papers-We-Love-Seattle/">
+  Seattle chapter of Papers We Love</a>, a community of folks who like reading, discussing,
+  and learning more about academic computer science papers. I'm a fan of using, contributing
+  to, and creating free and open source software projects.
 </div>
+
+<div class="separator"></div>
+
+<div class="text">
+  I've worked remotely since 2016, and VERY remotely (from Australia) from 2018-2020. By
+  all accounts I'm reasonably good at it.
+</div>
+
+    </div>
   </body>
 </html>
